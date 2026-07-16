@@ -4,6 +4,12 @@ A lightweight browser extension that lets you **pick which items to buy from you
 
 Add checkboxes to every item in your Steam cart, uncheck the ones you don't want right now, and buy only what's selected. The rest are safely set aside and can be brought back with a single click.
 
+## Demo
+
+![SteamCartSelector in action — checkboxes on cart items, unchecked items marked "será removido ao pagar", and the estimated total updated to reflect only the selected items](docs/demo.png)
+
+*Unchecked items are dimmed and flagged as "will be removed at checkout", while the estimated total (top right) updates live to show only what you've selected.*
+
 ## Why?
 
 Steam's cart is all-or-nothing: when you hit checkout, it charges for **everything** in the cart. If you have 10 games queued up but only want to buy 1 today, your only option is to manually delete the other 9 (and lose them). SteamCartSelector fixes that.
