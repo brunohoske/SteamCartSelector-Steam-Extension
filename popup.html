@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SteamCartSelector</title>
+  <style>
+    body {
+      width: 260px;
+      margin: 0;
+      padding: 16px;
+      font-family: "Motiva Sans", Arial, sans-serif;
+      background: #1b2838;
+      color: #c7d5e0;
+    }
+    h1 {
+      font-size: 16px;
+      margin: 0 0 8px;
+      color: #66c0f4;
+    }
+    p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin: 0 0 10px;
+    }
+    .step {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+    .num {
+      flex: 0 0 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #66c0f4;
+      color: #1b2838;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 12px;
+      padding: 8px;
+      background: #66c0f4;
+      color: #1b2838;
+      text-decoration: none;
+      border-radius: 3px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    a:hover { background: #7fd0ff; }
+  </style>
+</head>
+<body>
+  <h1>SteamCartSelector</h1>
+  <p>Compre só os itens marcados do carrinho — os outros voltam depois.</p>
+
+  <div class="step"><div class="num">1</div><div>Abra o carrinho e <b>desmarque</b> o que não quer comprar agora.</div></div>
+  <div class="step"><div class="num">2</div><div>Clique em pagamento: os desmarcados são removidos e guardados.</div></div>
+  <div class="step"><div class="num">3</div><div>Finalize a compra só com os marcados.</div></div>
+  <div class="step"><div class="num">4</div><div>Volte ao carrinho e clique em <b>Restaurar carrinho</b> para trazê-los de volta.</div></div>
+
+  <a href="https://store.steampowered.com/cart" target="_blank">Abrir carrinho da Steam</a>
+</body>
+</html>
